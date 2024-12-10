@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#1E1E1E"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sequence_game"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/play"
+        android:backgroundTint="@color/accent_color"
+        android:textColor="#f4f4f4"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/highScoreButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/high_score"
+        android:backgroundTint="@color/accent_color"
+        android:textColor="#f4f4f4"
+        app:cornerRadius="0dp" />
+</LinearLayout>

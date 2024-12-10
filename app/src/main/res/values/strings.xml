@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RandomSequenceGame</string>
+    <string name="sequence_game">Sequence Game</string>
+    <string name="play">Play</string>
+    <string name="high_score">High Scores</string>
+    <string name="go">GO!</string>
+    <string name="watch_the_sequence">Watch Sequence</string>
+    <string name="home">Home</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="save_score">Save Score</string>
+</resources>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+
+    <!-- Top TextView for Round -->
+    <TextView
+        android:id="@+id/roundTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Round: 1"
+        android:textColor="@color/text_light"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <!-- TextView for Score -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="@color/text_light"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:layout_below="@id/roundTextView"
+        android:layout_alignParentStart="true" />
+
+    <!-- Top (Green) Square -->
+    <View
+        android:id="@+id/upColor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/green"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true" />
+
+    <!-- Bottom (Yellow) Square -->
+    <View
+        android:id="@+id/downColor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/yellow"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Left (Blue) Square -->
+    <View
+        android:id="@+id/leftColor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/blue"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true" />
+
+    <!-- Right (Red) Square -->
+    <View
+        android:id="@+id/rightColor"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/red"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <!-- Center "GO!" Text -->
+    <TextView
+        android:id="@+id/goTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:textColor="@color/text_light"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
